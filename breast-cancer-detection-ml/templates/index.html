@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breast Cancer Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h2>Breast Cancer Prediction</h2>
+<div class="container">
+    <input id="mean_radius" placeholder="Mean Radius">
+    <input id="mean_perimeter" placeholder="Mean Perimeter">
+    <input id="mean_area" placeholder="Mean Area">
+    <input id="mean_concave_points" placeholder="Mean Concave Points">
+    <input id="mean_concavity" placeholder="Mean Concavity">
+    <input id="worst_radius" placeholder="Worst Radius">
+    <input id="worst_perimeter" placeholder="Worst Perimeter">
+    <input id="worst_area" placeholder="Worst Area">
+    <input id="worst_concave_points" placeholder="Worst Concave Points">
+    <input id="worst_concavity" placeholder="Worst Concavity">
+    <button onclick="predict()">Predict</button>
+    <h3 id="result"></h3>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
